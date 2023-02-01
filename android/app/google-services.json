@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667585235460",
+    "project_id": "liver-b1750",
+    "storage_bucket": "liver-b1750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667585235460:android:73853fff1a37ca263dc351",
+        "android_client_info": {
+          "package_name": "com.example.liver_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667585235460-k0l9httadam8unpjvnsnkjab3hh6qnto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf4ClqWbjvCZFwggbubLNXZLmAg4Qh558"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667585235460-k0l9httadam8unpjvnsnkjab3hh6qnto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

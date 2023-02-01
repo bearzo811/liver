@@ -1,0 +1,182 @@
+name: liver_final
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  cloud_firestore:
+  firebase_core:
+  google_sign_in:
+  fluttertoast: ^8.0.7
+  intl:
+  auto_size_text:
+  flutter_launcher_icons:
+  flutter_screenutil:
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  image_path: 'assets/UI/ThemePage/LiverFairy/0_FriedShrimp/0/LiverFairy_0_FriedShrimp_0_1.png'
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/part/
+    - assets/part/A_LightWeapon/Base/
+    - assets/part/C_Shoes/Base/
+    - assets/part/E_Mouth/Base/
+    - assets/part/F_Clothes/Base/
+    - assets/part/G_Pants/Base/
+    - assets/part/H_ForeHair/Base/0/
+    - assets/part/H_ForeHair/Base/1/
+    - assets/part/H_ForeHair/Base/2/
+    - assets/part/H_ForeHair/Base/3/
+    - assets/part/J_Eyes/Base/0/
+    - assets/part/J_Eyes/Base/1/
+    - assets/part/J_Eyes/Base/2/
+    - assets/part/J_Eyes/Base/3/
+    - assets/part/L_Ears/Base/0/
+    - assets/part/L_Ears/Base/1/
+    - assets/part/M_Head_Body/Base/
+    - assets/part/O_HeavyWeaponHandle/Base/
+    - assets/part/P_BackHair/Base/0/
+    - assets/part/P_BackHair/Base/1/
+    - assets/part/P_BackHair/Base/2/
+    - assets/part/Q_HeavyWeaponHead/Base/
+    - assets/part/I_EyeDecoration/
+    - assets/part/N_BackItem/
+    - assets/part/0_Thumbnail/A_LightWeapon/
+    - assets/part/0_Thumbnail/C_Shoes/
+    - assets/part/0_Thumbnail/F_Clothes/
+    - assets/part/0_Thumbnail/G_Pants/
+    - assets/part/0_Thumbnail/O_HeavyWeapon/
+    - assets/part/0_Thumbnail/I_EyeDecoration/
+    - assets/part/0_Thumbnail/N_BackItem/
+    - assets/part/0_Thumbnail/E_Mouth/Base/
+    - assets/part/0_Thumbnail/J_Eyes/Base/0/
+    - assets/part/0_Thumbnail/J_Eyes/Base/1/
+    - assets/part/0_Thumbnail/J_Eyes/Base/2/
+    - assets/part/0_Thumbnail/J_Eyes/Base/3/
+    - assets/part/0_Thumbnail/L_Ears/Base/0/
+    - assets/part/0_Thumbnail/L_Ears/Base/1/
+    - assets/UI/CharacterCreatePage/ChooseAppearance/
+    - assets/UI/CharacterCreatePage/ChooseAppearance/Buttons/
+    - assets/UI/CharacterCreatePage/ChooseAppearance/ColorBlock/Eyes/
+    - assets/UI/CharacterCreatePage/ChooseAppearance/ColorBlock/Hair/
+    - assets/UI/CharacterCreatePage/ChooseAppearance/ColorBlock/Skin/
+    - assets/UI/CharacterCreatePage/NamePage/
+    - assets/UI/CharacterInfo/Info/
+    - assets/UI/CharacterInfo/Backpack/
+    - assets/UI/CharacterInfo/Backpack/UI/
+    - assets/UI/CharacterInfo/Backpack/ItemInfo/
+    - assets/UI/CharacterInfo/Backpack/ItemUI/
+    - assets/UI/CommomUI/CharacterStatus/
+    - assets/UI/CommomUI/CharacterStatus/Bar/
+    - assets/UI/CommomUI/CharacterStatus/Groove/
+    - assets/UI/CommomUI/Menu/
+    - assets/UI/MainScene/BattleScene/
+    - assets/UI/MainScene/BattleScene/Background/
+    - assets/UI/MainScene/BattleScene/Monsters/
+    - assets/UI/MainScene/Train/
+    - assets/UI/MainScene/Train/AddTrain/
+    - assets/UI/MainScene/Log/
+    - assets/UI/MainScene/Achievement/
+    - assets/UI/MainScene/Shop/
+    - assets/UI/MainScene/Shop/UI/
+    - assets/UI/MainScene/Shop/PurchaseAmount/
+    - assets/UI/MainScene/Skill/
+    - assets/UI/MainScene/Skill/SkillUI/
+    - assets/UI/MainScene/Skill/SkillIcon/
+    - assets/UI/MainScene/Skill/SkillIcon_SquareFrame/
+    - assets/UI/MainScene/Skill/SkillIcon_CircleFrame/
+    - assets/UI/ThemePage/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/0/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/1/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/2/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/3/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/4/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/5/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/6/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/7/
+    - assets/UI/ThemePage/LiverFairy/0_FriedShrimp/8/
+    - assets/Items/Potions/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: DotGothic16
+      fonts:
+        - asset: fonts/DotGothic16-Regular.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
