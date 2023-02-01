@@ -13,9 +13,7 @@ Liver 原意是肝，現代人常常用來形容「花費大量時間」的意�
 ### Some ScreenShot
 
 <img src="https://i.imgur.com/ABEru5t.png" width="180" height="350" />
-
 <img src="https://i.imgur.com/H5nZFF6.png" width="180" height="350" />
-
 <img src="https://i.imgur.com/12S1eLB.png" width="180" height="350" />
 
 
