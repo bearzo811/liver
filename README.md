@@ -1,16 +1,13 @@
-# liver_final
+# Liver 習慣養成APP
 
-A new Flutter project.
+坊間常常對於一個好習慣的養成有不同的說法，有人說二十一天可以養成一
+個好習慣，而在遠見雜誌的一篇報導中也有人說需要六十六天才能養成一個
+好習慣，但不管需要多久的時間養成，我們都清楚知道一個好的習慣會對我們
+造成有多大的影響，為了幫助人們可以更有動力去養成一個好習慣，我們設計
+一款習慣養成輔助APP。
 
-## Getting Started
+Liver 原意是肝，現代人常常用來形容「花費大量時間」的意思，這代表著
+養成一個習慣的必要條件;而我們也將 Liver 轉化為 Live+er，意味著生活的人。
+我們希望使用者也可以成為一個有生活的人，而不再陷入被惰性拖延、生活毫
+無目標的泥沼中，匯合以上兩點概念，我們構思出本次專題。
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
