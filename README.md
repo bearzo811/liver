@@ -10,7 +10,7 @@ Liver 原意是肝，現代人常常用來形容「花費大量時間」的意�
 
 我們希望使用者也可以成為一個有生活的人，而不再陷入被惰性拖延、生活毫無目標的泥沼中，匯合以上兩點概念，我們構思出本產品。
 
-### Some ScreenShot
+## Some ScreenShot
 
 <img src="https://i.imgur.com/K3hInjR.png" width="180" height="350" />
 <img src="https://i.imgur.com/ABEru5t.png" width="180" height="350" />
